@@ -1,13 +1,9 @@
-exports.data = {};
-
-exports.render = function (data) {
-
-    return `<!doctype html>
+<!doctype html>
 <html lang="tr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${data.first_name} ${data.last_name}</title>
+    <title>Orkun ÇAKILKAYA</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   </head>
   <body class="bg-gray-400 p-4">
@@ -16,14 +12,18 @@ exports.render = function (data) {
    <!-- Start of component -->
    <div class="max-w-sm bg-white border-2 border-gray-300 p-6 rounded-md tracking-wide shadow-lg w-full">
       <div id="header" class="flex items-center mb-4"> 
-         <img alt="avatar" class="w-20 rounded-full border-2 border-gray-300" src="https://s.gravatar.com/avatar/${this.md5(data.email)}?s=80" />
+         <img alt="avatar" class="w-20 rounded-full border-2 border-gray-300" src="https://s.gravatar.com/avatar/69efc850f9d0d04b7f1f039e2d1bdcd1?s=80" />
          <div id="header-text" class="leading-5 ml-6 sm">
-            <h4 id="name" class="text-xl font-semibold">${data.first_name} ${data.last_name}</h4>
+            <h4 id="name" class="text-xl font-semibold">Orkun ÇAKILKAYA</h4>
          </div>
       </div>
-      ${data.content}
+      <h1>Merhaba Dünya!</h1>
+<p><b>Buralara</b> yaz günü <i>kar</i> <code>yağıyor</code></p>
+<pre><code class="language-js">var bunlar = {hep: &quot;kod&quot;}; 
+</code></pre>
+<script type="application/javascript" src="http://ix.io/2Ph3"></script>
+
    </div>
 </div>
   </body>
-</html>`;
-};
+</html>
