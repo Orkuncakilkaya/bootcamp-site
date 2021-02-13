@@ -16,7 +16,7 @@ exports.render = function (data) {
         .map(kisi => `
         <div class="flex justify-center items-center mb-4">
            <!-- Start of component -->
-           <a href="./${kisi.url}" class="max-w-sm bg-white border-2 border-gray-200 p-6 rounded-md tracking-wide shadow-sm hover:shadow-lg hover:border-gray-300 w-full">
+           <a href=".${kisi.url}" class="max-w-sm bg-white border-2 border-gray-200 p-6 rounded-md tracking-wide shadow-sm hover:shadow-lg hover:border-gray-300 w-full">
               <div id="header" class="flex items-center mb-4"> 
                  <img alt="avatar" class="w-20 rounded-full border-2 border-gray-300" src="https://s.gravatar.com/avatar/${this.md5(kisi.data.email)}?s=80" />
                  <div id="header-text" class="leading-5 ml-6 sm">
