@@ -1,0 +1,11 @@
+{
+  "name": "bootcamp-site",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:Orkuncakilkaya/bootcamp-site.git",
+  "author": "Orkuncakilkaya",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
