@@ -11,7 +11,7 @@ exports.render = function (data) {
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   </head>
   <body class="bg-gray-400 p-4">
-  <a href="/" class="bg-blue-500 rounded p-2 text-white">Anasayfa</a>
+  <a href="../.." class="bg-blue-500 rounded p-2 text-white">Anasayfa</a>
   <div class="flex justify-center items-center mb-4">
    <!-- Start of component -->
    <div class="max-w-sm bg-white border-2 border-gray-300 p-6 rounded-md tracking-wide shadow-lg w-full">
