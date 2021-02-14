@@ -2,8 +2,8 @@
 first_name: Sevda
 last_name: Engin
 email: svdngn@outlook.com
-birth_date: 19961503
-motto: "hello!"
+birth_date: 19960315
+motto: "hellooo :)"
 tags:
   - kisi
 layout: kisi.11ty.js
