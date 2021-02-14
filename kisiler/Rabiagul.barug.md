@@ -1,8 +1,8 @@
 ---
-first_name: FirstName 
-last_name: LastName
-email: email@domain.tld
-birth_date: 19910228
+first_name: Rabia Gul
+last_name: Barug
+email: rabiabrg7@gmail.com
+birth_date: 19980212
 motto: "Live fast die young!"
 tags:
   - kisi
