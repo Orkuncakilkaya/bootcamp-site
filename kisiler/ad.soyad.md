@@ -1,7 +1,7 @@
 ---
-first_name: Ad
-last_name: Soyad
-email: email@domain.tld
+first_name: Örnek
+last_name: ISIM
+email: isimsoyisim@gmail.com
 birth_date: 19900228
 motto: "Live fast die young!"
 tags:
