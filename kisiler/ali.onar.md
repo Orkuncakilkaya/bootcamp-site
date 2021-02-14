@@ -1,9 +1,9 @@
 ---
-first_name: FirstName 
-last_name: LastName
-email: email@domain.tld
-birth_date: 19910228
-motto: "Live fast die young!"
+first_name: ALi 
+last_name: Onar
+email: alitunacanonar@icloud.com
+birth_date: 18121995
+motto: "Code is poetry!"
 tags:
   - kisi
 layout: kisi.11ty.js
